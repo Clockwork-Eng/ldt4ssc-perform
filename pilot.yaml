@@ -14,50 +14,101 @@
 schema_version: 1
 
 # Short name of the pilot, in lowercase with hyphens (used in URLs)
-short_name: <your-pilot-short-name>
+short_name: perform
 
 # Human-readable name of the pilot
-name: <Your Pilot Full Name>
+name: PERFORM
 
 # Short description of the pilot (one or two sentences)
 description: >
-  <A short description of what this pilot is about, what challenge it
-  addresses, and what value it aims to deliver. One or two sentences is
-  enough.>
+  A federated network of AI-reasoning Local Digital Twins transforming public buildings into a coordinated energy flexibility and renewable energy integration system for municipalities.
 
 # LDT4SSC work strand: WS1, WS2, or WS3
-work_strand: <WS1 | WS2 | WS3>
+work_strand: WS2
 
 # The cities, regions, or communities involved in this pilot
 locations:
-  - city: <City name>
-    country: <Country name>
-    country_code: <ISO 3166-1 alpha-2 code, e.g. LU, IT, ES>
+  - city: Municipality of Naoussa
+    country: Greece
+    country_code: EL
   # Add more entries as needed for multi-city pilots
+
+  - city: Municipality of Vila Franca de Xira
+    country: Portugal
+    country_code: PT
+    # Add more entries as needed for multi-city pilots
 
 # The thematic focus areas of the pilot, drawn from the LDT4SSC topic list.
 # Pick all that apply. The full list is documented in the LDT4SSC Knowledge
 # Hub under Resources for Pilots.
 focus_areas:
-  - <e.g. mobility>
-  - <e.g. air-quality>
+  - Building energy monitoring & optimisation
+  - Renewable energy & storage investment planning
 
 # The consortium members participating in this pilot
 consortium:
-  - name: <Organisation name>
-    role: <e.g. Pilot lead, Public authority, Technology partner, Research>
-    country_code: <ISO 3166-1 alpha-2 code>
-    website: <https://...>  # optional
+  - name: Clockwork
+    role: Pilot lead, Technology partner
+    country_code: EL
+    website: https://clockwork-energy.gr/  # optional
+  # Add more entries for each consortium member
+
+  - name: Ubitech
+    role: Technology partner
+    country_code: EL
+    website: https://ubitech.eu/  # optional
+  # Add more entries for each consortium member
+
+  - name: Municipality of Heroic City of Naoussa
+    role: Public authority
+    country_code: EL
+    website: https://www.naoussa.gr/ # optional
+  # Add more entries for each consortium member
+
+  - name: Stereograph
+    role: Technology partner
+    country_code: FR
+    website: https://www.stereograph.fr/  # optional
+  # Add more entries for each consortium member
+
+  - name: Municipality of Vila Franca de Xira
+    role: Public authority
+    country_code: PT
+    website: https://www.cm-vfxira.pt/  # optional
+  # Add more entries for each consortium member
+
+  - name: Technical University of Denmark
+    role: Research
+    country_code: DK
+    website: https://dtu.dk/  # optional
+  # Add more entries for each consortium member
+
+  - name: Nhood Services Portugal
+    role: Technology partner
+    country_code: PT
+    website: https://nhood.pt/  # optional
+  # Add more entries for each consortium member
+
+  - name: AI-nergy
+    role: Technology partner
+    country_code: DK
+    website: https://ai-nergy.net/  # optional
+  # Add more entries for each consortium member
+
+  - name: AIT Austrian Institute of Technology GmbH
+    role: Research
+    country_code: AT
+    website: https://www.ait.ac.at/  # optional
   # Add more entries for each consortium member
 
 # Primary contact for the pilot
 contact:
-  name: <Contact person name>
-  email: <contact@example.org>
-  organisation: <Organisation name>
+  name: Spyridon Vlachos
+  email: spivla@clockwork.engineering
+  organisation: Clockwork
 
 # Date the pilot started (ISO 8601 format: YYYY-MM-DD)
-start_date: <YYYY-MM-DD>
+start_date: 2026-09-15
 
 # Optional: expected end date of the pilot
 # end_date: <YYYY-MM-DD>
